@@ -34,6 +34,9 @@ describe('useCounter', () => {
     
     act(() => {
       result.current.setVal(5);
+    });
+    
+    act(() => {
       result.current.increment();
     });
     
